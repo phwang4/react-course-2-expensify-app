@@ -8,6 +8,7 @@ module.exports = (env, argv) => {
     output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
+    publicPath: './dist/'
   },
     mode: 'development',
     module: {
@@ -50,6 +51,6 @@ module.exports = (env, argv) => {
       contentBase: path.join(__dirname, 'public'),
       historyApiFallback: true,
       publicPath: '/dist/'
-    },
+    }
   }
 }
