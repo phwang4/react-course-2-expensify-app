@@ -11,7 +11,7 @@
     "serve": "live-server public",
     "dev-server": "webpack serve",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm run build:prod"
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "@babel/core": "^7.14.6",
@@ -28,7 +28,6 @@
     "express": "^4.17.1",
     "jest": "^27.0.4",
     "live-server": "^1.2.1",
-    "mini-css-extract-plugin": "^1.6.0",
     "moment": "^2.29.1",
     "node-sass": "^6.0.0",
     "normalize.css": "^8.0.1",
