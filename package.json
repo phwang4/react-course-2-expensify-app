@@ -28,6 +28,7 @@
     "express": "^4.17.1",
     "jest": "^27.0.4",
     "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^1.6.0",
     "moment": "^2.29.1",
     "node-sass": "^6.0.0",
     "normalize.css": "^8.0.1",
