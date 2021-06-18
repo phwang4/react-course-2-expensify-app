@@ -11,7 +11,7 @@
     "serve": "live-server public",
     "dev-server": "webpack serve",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "@babel/core": "^7.14.6",
